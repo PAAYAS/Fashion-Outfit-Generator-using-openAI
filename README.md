@@ -1,3 +1,3 @@
-<h1 align="center">Flipkart Clone</h1>
+<h1 align="center">Flipkart Fashion Outfit Generator!</h1>
 
-This is my [flipkart](https://vishal-raj-1.github.io/Flipkart-Clone/).
+Preview of the website: [demo]().
