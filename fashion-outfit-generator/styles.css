@@ -1,0 +1,91 @@
+body {
+  /* background-color: #64a0e0; */
+  margin: 0;
+  padding: 0;
+  background-image: url("image/img.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+#main{
+    background-color: rgba(230, 230, 250, 0.8);
+}
+.input-style {
+    border: 2px solid #ccc;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    color: #666;
+    background-color: #fff;
+    width: 100%;
+    outline: none;
+}
+
+.button-style {
+    background-color: #a2a2ba;
+    color: #111;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    outline: none;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+.button-style:hover {
+    background-color: #111;
+    color: #fff;
+    transform: translateY(-1px);
+}
+
+.button-style:focus {
+    outline: none;
+}
+
+#fashionHistoryList {
+    background-color: #f2f2f2;
+    padding: 1rem;
+    border-radius: 0.25rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  #fashionHistoryList h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Style for the history list */
+  #historyList {
+    list-style-type: disc;
+    margin-left: 1rem;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  #historyList li {
+    margin-bottom: 0.25rem;
+  }
+
+  #checkAuthor {
+    padding: 1rem;
+    border-top: 2px solid #3f3f4d; /* Change the border color to black */
+  }
+  
+  /* Style for the footer text */
+  #checkAuthor p {
+    font-size: 0.875rem; /* 14px */
+    color: #666;
+  }
+  
+  /* Style for the author links */
+  #checkAuthor a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  /* Hover effect for author links */
+  #checkAuthor a:hover {
+    color: #009688; /* Change to your desired hover color */
+  }
